@@ -26,10 +26,10 @@
 
 import React, { Component } from 'react';
 import { v4 as uuid } from 'uuid';
-import Section from './Sectipon/Section';
-import ContactList from './ContactList/ContactList';
-import ContactForm from './ContactForm/ContactForm';
-import Filter from './Filter/Filter';
+import Section from './components/Section/Section';
+import ContactList from './components/ContactList/ContactList';
+import ContactForm from './components/ContactForm/ContactForm';
+import Filter from './components/Filter/Filter';
 
 class App extends Component {
   state = {
