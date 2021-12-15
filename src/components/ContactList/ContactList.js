@@ -6,6 +6,7 @@ const ContactList = ({ filteredContacts, handleDelete }) => {
   return (
     <div className={s.mainContainer}>
       <ul>
+        <p className={s.ContactList}>Contact List</p>
         {filteredContacts.map(contact => (
           <li className={s.newContact} key={contact.id}>
             <p className={s.newContactName}>

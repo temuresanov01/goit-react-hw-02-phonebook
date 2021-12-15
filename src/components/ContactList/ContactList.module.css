@@ -1,0 +1,32 @@
+.mainContainer {
+  width: 500px;
+  margin: 15px auto;
+  padding: 10px;
+  border: 10px solid rgb(111, 136, 247);
+  border-radius: 40px;
+}
+.ContactList {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.newContact {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.newContactName {
+  display: inline-block;
+  color: blue;
+  margin-right: 20px;
+}
+.btn {
+  display: inline-block;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+}
